@@ -8,11 +8,11 @@ class Car {
     }
 }
 let byd = new Car()
-byd.run() //不在当前类,不可以访问
+// byd.run() //不在当前类,不可以访问
 class Audi extends Car {
     sayHi() {
        this.run() //可以使用
     }
 }
 let audi = new Audi()
-audi.run()//不在当前子类,不可以使用
+// audi.run()//不在当前子类,不可以使用

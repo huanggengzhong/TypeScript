@@ -1,4 +1,3 @@
-"use strict";
 //number
 var b = NaN;
 var c = Infinity;

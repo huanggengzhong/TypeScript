@@ -23,7 +23,7 @@ let poi3:FourDPoint={
 //------------------
 //接口继承类
 class Bird{
-    type:string="画眉鸟",
+    type:string="画眉鸟"
     fly():void{
 
     }
